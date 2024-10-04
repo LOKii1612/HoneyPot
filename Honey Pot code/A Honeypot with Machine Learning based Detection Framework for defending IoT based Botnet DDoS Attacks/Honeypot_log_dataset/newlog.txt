@@ -1,0 +1,16 @@
+{"eventid":"cowrie.login.success","username":"himesh","password":"himesh","message":"login attempt [cpanel/123456] succeeded","sensor":"9713b3442cdf","timestamp":"2020/09/16-20:54:31","src_ip":"192.168.0.6","session":"daf3c10fd014"}
+{"eventid":"cowrie.command.success","input":"0","message":"Command found: busybox","sensor":"9713b3442cdf","timestamp":"2020/09/16-20:57:06","src_ip":"192.168.0.6","session":"89051c365531"}
+{"eventid":"cowrie.command.success","input":"3","message":"Command found: busybox","sensor":"9713b3442cdf","timestamp":"2020/09/16-20:58:03","src_ip":"192.168.0.6","session":"89051c365531"}
+{"eventid":"cowrie.command.success","input":"12","message":"Command found: busybox","sensor":"9713b3442cdf","timestamp":"2020/09/16-20:58:07","src_ip":"192.168.0.6","session":"89051c365531"}
+{"eventid":"cowrie.login.failed","username":"raja","password":"raja","message":"login attempt [postgres/123456789] failed","sensor":"9713b3442cdf","timestamp":"2020/09/16-20:59:13","src_ip":"192.168.0.6","session":"1289d1bff1b9"}
+{"eventid":"cowrie.command.failed","input":"0","message":"Command not found: Enter new UNIX password:","sensor":"9713b3442cdf","timestamp":"2020/09/16-21:00:36","src_ip":"192.168.0.6","session":"daf3c10fd014"}
+{"eventid":"cowrie.login.failed","username":"f","password":"f","message":"login attempt [postgres/123456789] failed","sensor":"9713b3442cdf","timestamp":"2020/11/02-17:38:07","src_ip":"127.0.0.1","session":"1289d1bff1b9"}
+{"eventid":"cowrie.login.failed","username":"f","password":"f","message":"login attempt [postgres/123456789] failed","sensor":"9713b3442cdf","timestamp":"2020/11/02-17:39:06","src_ip":"127.0.0.1","session":"1289d1bff1b9"}
+{"eventid":"cowrie.command.failed","input":"0","message":"Command not found: Enter new UNIX password:","sensor":"9713b3442cdf","timestamp":"2020/11/02-17:39:08","src_ip":"127.0.0.1","session":"daf3c10fd014"}
+{"eventid":"cowrie.login.success","username":"aaa","password":"aaa","message":"login attempt [cpanel/123456] succeeded","sensor":"9713b3442cdf","timestamp":"2020/11/02-17:39:37","src_ip":"127.0.0.1","session":"daf3c10fd014"}
+{"eventid":"cowrie.command.success","input":"0","message":"Command found: busybox","sensor":"9713b3442cdf","timestamp":"2020/11/02-17:39:40","src_ip":"127.0.0.1","session":"89051c365531"}
+{"eventid":"cowrie.login.success","username":"kiran","password":"kiran","message":"login attempt [cpanel/123456] succeeded","sensor":"9713b3442cdf","timestamp":"2020/11/02-18:57:38","src_ip":"127.0.0.1","session":"daf3c10fd014"}
+{"eventid":"cowrie.command.success","input":"0","message":"Command found: busybox","sensor":"9713b3442cdf","timestamp":"2020/11/02-18:57:56","src_ip":"127.0.0.1","session":"89051c365531"}
+{"eventid":"cowrie.command.success","input":"0","message":"Command found: busybox","sensor":"9713b3442cdf","timestamp":"2020/11/02-18:58:34","src_ip":"127.0.0.1","session":"89051c365531"}
+{"eventid":"cowrie.login.failed","username":"yy","password":"yy","message":"login attempt [postgres/123456789] failed","sensor":"9713b3442cdf","timestamp":"2020/11/02-18:59:22","src_ip":"127.0.0.1","session":"1289d1bff1b9"}
+{"eventid":"cowrie.command.failed","input":"0","message":"Command not found: Enter new UNIX password:","sensor":"9713b3442cdf","timestamp":"2020/11/02-18:59:37","src_ip":"127.0.0.1","session":"daf3c10fd014"}

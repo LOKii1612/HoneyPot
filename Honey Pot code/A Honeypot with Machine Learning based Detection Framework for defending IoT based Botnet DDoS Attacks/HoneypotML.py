@@ -84,14 +84,7 @@ def upload():
                 session = data['session']
                 src = data['src_ip']
                 dataset+=str(input_data)+","+str(src)+",3\n"
-            if event == 'cowrie.login.success':
-                input_data = data['username']
-                input_data = "0"
-                message = data['message']
-                message = message.replace(","," ")
-                session = data['session']
-                src = data['src_ip']
-                dataset+=str(input_data)+","+str(src)+",0\n"
+            
         file.close()
     f = open("dataset.txt", "w")
     f.write(dataset)
@@ -130,10 +123,6 @@ def runSVM():
     global svm_f
     global svm_acc
     global y_test
-    cls = svm.SVC()
-    cls.fit(X_train, y_train)
-    prediction_data = cls.predict(X_test) 
-    svm_acc = accuracy_score(y_test,prediction_data)*100
     svm_roc = roc_auc_score(y_test,prediction_data,average='macro')*100
     svm_f = f1_score(y_test, prediction_data,average='macro') * 100
     for i in range(0,150):
